@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Header</title>
+    <link rel="stylesheet" href="Header.css">
+</head>
+<body>
+    <header>
+        <div class="logo Portfoliio">
+            <h2 class="Ericklogo">Erick Monteiro</h2>
+        </div>
+
+        <nav class="menu">
+        <a href="#home" class="active">Home</a>
+        <a href="#atividades">Atividades</a>
+        <a href="#aocumentacao">Documentação</a>
+        <a href="#sobre_mim">Sobre mim</a>
+        </nav>
+    </header>
+    <script>
+        const links = document.querySelectorAll('.menu a');
+        links.forEach(link => {
+            link.addEventListener('click', function() {
+                links.forEach(l => l.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+    </script>
+    <br>
+    <main>
+        <article>
+        <fieldset>
+            <form action="#">
+            <label for="nome">Nome: </label><input type="Nome" placeholder="Nome Completo" required> <br> <br>
+            <label for="nota">Nota: </label><input type="password" placeholder="Digite sua senha" required> <br> <br>
+            <button> Inscrever</button>
+        </fieldset>
+        </article>
+        <h2>Tabelas de notas</h2>
+        <table border="20">
+            <caption>Dados</caption>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Nota</th>
+                </tr>
+                
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ERICK LIMA</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Madu</td>
+                    <td>15</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <hr>
+    <footer>
+        Pagina criada por Erick - atividade da softex
+    </footer>
+</body>
+</html>
