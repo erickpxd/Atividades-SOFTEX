@@ -1,6 +1,6 @@
-# Atividades SOFTEX
+# tags
 
-Este repositório contém atividades práticas do curso SOFTEX:
+Esta atividade contem as tarefas da semana 1
 
 1. **Tarefa 1 – Tabela** (`Tabela.html`)
 2. **Tarefa 2 – Formulário** (`Formulario.html`)
@@ -23,3 +23,4 @@ Clone o repositório e abra os arquivos HTML no seu navegador para visualizar in
 ├── Header.css
 └── (arquivo de integração final, e.g., index.html)
 ```
+
