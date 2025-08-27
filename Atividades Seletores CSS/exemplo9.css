@@ -1,0 +1,14 @@
+body {
+  background-color: #23504e;
+  font-family: Arial, sans-serif;
+}
+
+#nome {
+  color: rgb(196, 228, 109);
+  font-family: 'Georgia', serif;
+}
+
+.bio {
+  color: #ffffff;
+  font-family: 'Verdana', sans-serif;
+}

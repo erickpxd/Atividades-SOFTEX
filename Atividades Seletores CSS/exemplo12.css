@@ -1,0 +1,46 @@
+body {
+  background: linear-gradient(to bottom, #1a1a2e, #16213e);
+  color: #eaeaea;
+  font-family: 'Georgia', serif;
+  line-height: 1.8;
+  padding: 30px;
+  margin: 0;
+}
+
+#titulo-gato {
+  text-align: center;
+  font-size: 40px;
+  color: #9ab4f5;
+  margin-bottom: 25px;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+}
+
+.intro {
+  font-style: italic;
+  color: #dcdcdc;
+  font-size: 18px;
+  margin: 12px 0;
+}
+
+p {
+  font-size: 17px;
+}
+
+.destaque {
+  background-color: rgba(50, 50, 80, 0.7);
+  border-left: 6px solid #9ab4f5;
+  padding: 20px;
+  margin-top: 25px;
+  border-radius: 10px;
+  font-size: 16px;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.5);
+  text-align: center;
+}
+
+.destaque video {
+  margin-top: 15px;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 12px rgba(154, 180, 245, 0.6);
+}

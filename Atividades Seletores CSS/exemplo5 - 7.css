@@ -1,0 +1,21 @@
+/* Exercício 5 */
+.importante {
+  font-weight: bold;
+  color: blue;
+}
+
+/* Exercício 6 */
+.item {
+  color: green;
+}
+.especial {
+  color: red;
+}
+
+/* Exercício 7 */
+#cabecalho {
+  color: darkblue;
+}
+.texto {
+  color: gray;
+}

@@ -1,0 +1,16 @@
+h1 {
+ color: magenta;
+}
+
+h2 {
+    color: blue;
+}
+
+.paragrafo1 {
+    font-size: 22;
+    font-family: 'Courier New', Courier, monospace;
+}
+.paragrafo2 {
+    font-size: 23;
+    font-family: Arial, Helvetica, sans-serif;
+}

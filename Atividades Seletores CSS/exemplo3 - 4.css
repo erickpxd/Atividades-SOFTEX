@@ -1,0 +1,9 @@
+h1#vermelho {
+    color: red;
+    font-size: 50px;
+}
+
+p#destaque {
+    background-color: yellow;
+    font-weight: bold;
+}
